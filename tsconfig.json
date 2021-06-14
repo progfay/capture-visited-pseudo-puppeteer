@@ -1,0 +1,9 @@
+{
+  "extends": "@progfay/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "lib": ["dom"],
+    "declaration": false,
+    "outDir": "dist"
+  },
+  "include": ["src"]
+}
